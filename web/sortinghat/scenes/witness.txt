@@ -1,0 +1,16 @@
+You are now in the great hall, watching others be sorted. It will soon be your turn. How do you feel?
+
+*choice
+  #Scared
+    *set Sl %+5
+    *set Gr %+5
+    *finish
+  #Curious
+    *set Sl %+5
+    *set Ra %+10
+    *finish
+  #Excited
+    *set Sl %+2
+    *set Ra %+5
+    *set Hu %+10
+    *finish

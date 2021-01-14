@@ -1,0 +1,29 @@
+You are walking up the steps of the castle and see a kid being pushed around. What do you do?
+
+*choice
+  #Nothing, I'm afraid.
+    *set Gr %-20
+    *finish
+  #Stand up for the bullied kid.
+    Why are you going to stand up for the bullied kid?
+    *choice
+      #They could help me achieve my goals later and become loyal to me.
+        *set Sl %+20
+        *set Hu %-20
+        *finish
+      #They need help!
+        *set Gr %+10
+        *set Hu %+20
+        *finish
+  #Observe. Maybe stand in after I have enough information.
+    *set Ra %+10    
+    What reason would make you intervene?
+    *choice
+      #If it could turn in my favor and help me achieve my goals.
+        *set Sl %+20
+        *set Hu %-10
+        *finish
+      #If they need help. Everyone should have a chance to prove themselves.
+        *set Gr %+10
+        *finish
+      

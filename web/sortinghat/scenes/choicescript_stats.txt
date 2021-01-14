@@ -1,0 +1,9 @@
+This is a stats screen!
+
+*stat_chart
+  text Name
+  text House
+  percent Gr Courage
+  percent Sl Ambition
+  percent Hu Loyal
+  percent Ra Curious

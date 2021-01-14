@@ -1,0 +1,41 @@
+*title The Sorting Hat
+*author Elise O'Banion
+*scene_list
+  startup
+  garden
+  steps
+  witness
+  ending
+
+*create Gr 10
+*create Sl 10
+*create Hu 10
+*create Ra 10
+*create Name "You have not told us yet!"
+*create House "Not Sorted"
+
+What's your name?
+
+*input_text Name
+
+Your name is ${Name}, is that right?
+
+You are on the train to Hogwarts. Where are you going to go sit with?
+
+*choice
+  #Anyone!
+    *set Hu 60
+    *set Sl 0
+    *finish
+  #The kid with the books. I want to know more about them.
+    *set Ra 50
+    *finish
+  #The kids that look like they know what they are doing.
+    *set Sl 60
+    *set Ra 20
+    *set Hu 5
+    *finish
+  #The kids doing a staring competition.
+    *set Gr 60
+    *set Hu 50
+    *finish

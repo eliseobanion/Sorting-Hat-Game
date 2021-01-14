@@ -1,0 +1,9 @@
+After getting off of the train, you walk through the gardens on your way to the castle. You see a glowing green flower. What does the flower make you think about?
+
+*choice
+  #I wonder if this could be important later. Maybe it could help me look better to my peers.
+    *set Sl %+20
+    *finish
+  #I want to know more about the flower and its properties.
+    *set Ra %+20
+    *finish

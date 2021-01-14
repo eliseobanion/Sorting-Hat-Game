@@ -1,0 +1,16 @@
+Hello
+*if ((Gr > Sl) and (Gr > Hu)) and (Gr > Ra)
+      *set House "Gryffindor"
+      *finish
+*elseif ((Sl > Gr) and (Sl > Hu)) and (Sl > Ra)
+      *set House "Slytherin"
+      *finish
+*elseif ((Ra > Gr) and (Ra > Sl)) and (Ra > Hu)
+      *set House "Ravenclaw"
+      *finish
+*else
+  *set House "Hufflepuff"  
+
+This is the last scene!  The game is over!
+
+*ending
